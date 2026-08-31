@@ -1,0 +1,2 @@
+const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('#nav');if(toggle){toggle.addEventListener('click',()=>{nav.style.display=nav.style.display==='flex'?'none':'flex';nav.style.flexDirection='column';nav.style.position='absolute';nav.style.top='88px';nav.style.right='0';nav.style.left='0';nav.style.background='#090909';nav.style.padding='22px';nav.style.borderBottom='2px solid #d92720'})}
+document.querySelectorAll('a[href="#"]').forEach(a=>a.addEventListener('click',e=>e.preventDefault()));
